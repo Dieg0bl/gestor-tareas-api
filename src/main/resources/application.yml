@@ -6,6 +6,9 @@ spring:
       WRITE_DATES_AS_TIMESTAMPS: false
   messages:
     basename: messages
+  h2:
+    console:
+      enabled: true
 
 server:
   port: 8080
