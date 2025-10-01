@@ -1,0 +1,36 @@
+# Build outputs
+target/
+**/target/
+*.class
+*.jar
+*.war
+
+# IDEs and editor settings
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/MavenWrapperDownloader.java
+
+# Logs and runtime files
+*.log
+app-logs*.txt
+db-logs*.txt
+*.response.json
+swagger.response.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets and env (keep local credentials out of the repo)
+.env
+
+# Docker overrides for local development
+docker-compose.override.yml
