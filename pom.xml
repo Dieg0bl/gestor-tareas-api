@@ -9,7 +9,7 @@
   <artifactId>gestor-tareas-api</artifactId>
   <version>0.1.0</version>
   <name>gestor-tareas-api</name>
-  <description>API de usuarios y tareas (CRUD) con paginación, validaciones y Swagger</description>
+  <description>API REST de usuarios y tareas (CRUD) con validaciones y Swagger</description>
 
   <properties>
     <java.version>21</java.version>
@@ -17,13 +17,12 @@
     <maven.compiler.plugin.version>3.11.0</maven.compiler.plugin.version>
   </properties>
 
-  <parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-  <version>3.3.13</version>
-  </parent>
-
-  <dependencies>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.5.6</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>  <dependencies>
 
     <dependency>
       <groupId>org.springframework.boot</groupId>
